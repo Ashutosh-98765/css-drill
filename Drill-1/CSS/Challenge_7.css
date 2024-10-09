@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    background-color: grey;
+    justify-content: flex-end;
+}
+
+.sub-box{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    align-self: flex-end;
+}

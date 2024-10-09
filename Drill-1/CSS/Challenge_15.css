@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin: 2px solid red;
+    display: flex;
+    column-gap: 5vw;
+    height:100vh;
+}
+.group1{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height : 80vh;
+
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+}
+
+.box3{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+}
+
+.group2{
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+
+}
+
+.box2{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    align-self: flex-end;
+}
+
+.box4{
+    height: 300px;
+    width: 300px;
+    background-color: grey;
+}

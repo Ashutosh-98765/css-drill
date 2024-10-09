@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+.box{
+    background-color: grey;
+    display: flex;
+    width: 690px;
+    height: 300px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box1{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+.box2{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
